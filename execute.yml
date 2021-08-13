@@ -1,0 +1,10 @@
+config:
+  target: "https://dhamakashopping.com/"
+  phases:
+    - duration: 30
+      arrivalRate: 5
+scenarios:
+  - name: "See Offers"
+    flow:
+      - get:
+          url: "/campaigns"
